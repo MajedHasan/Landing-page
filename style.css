@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------- Global --------------- */
+
+
+
+/* --------------- Utilities --------------- */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    max-width: 800px;
+    width: 100%;
+}
+section{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 30px;
+}
+hr{
+    border: 1px solid #d3d3d3;
+}
+
+
+
+
+/* ----------------------------------------------
+    Top Players
+---------------------------------------------- */
+.top-players{
+    margin-bottom: 15px;
+}
+.top-players .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+.top-players .players .player{
+    display: flex;
+    align-items: center;
+}
+.top-players .players .player img{
+    max-width: 50px;
+    width: 100%;
+    margin-right: 12px;
+}
+/* -------------------------------------------xxx
+    Top Players
+xxx------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------
+    Top Blogs
+---------------------------------------------- */
+.top-blogs{
+    margin-top: 20px;
+}
+.top-blogs .blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 15px;
+}
+.top-blogs .blogs .blog{
+    display: flex;
+}
+.top-blogs .blogs .blog .thumbnail img{
+    width: 150px;
+}
+.top-blogs .blogs .blog .blog-details{
+    margin-left: 15px;
+}
+.top-blogs .blogs .blog .blog-details .blog-title{
+    font-size: 22px;
+    font-weight: 400;
+}
+.top-blogs .blogs .blog .blog-details span{
+    font-size: 16px;
+    color: #b1b1b1;
+}
+/* -------------------------------------------xxx
+    Top Blogs
+xxx------------------------------------------- */
