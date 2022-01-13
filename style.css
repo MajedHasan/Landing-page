@@ -115,6 +115,11 @@ xxx------------------------------------------- */
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
 }
+.latest-courses .courses .course{
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    padding: 7px;
+}
 .latest-courses .courses .course img{
     max-width: 100%;
 }
@@ -150,3 +155,33 @@ xxx------------------------------------------- */
 /* -------------------------------------------xxx
     Lates Course
 xxx------------------------------------------- */
+
+
+
+/* -------------------------------------------
+ Tablet Devices
+------------------------------------------- */
+@media only screen and (max-width:991px) {
+    .container {
+        max-width: 95%;
+    }
+    .top-players .players, .latest-courses .courses {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+    
+}
+
+
+
+/* -------------------------------------------
+ Mobile Devices
+------------------------------------------- */
+@media only screen and (max-width:688px) {
+    .top-players .players, .latest-courses .courses, .top-blogs .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-players .players .player {
+        justify-content: center;
+    }
+}
