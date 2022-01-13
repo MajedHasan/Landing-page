@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Poppins", sans-serif;
+}
 
 /* --------------- Global --------------- */
 
@@ -52,6 +55,9 @@ hr{
     width: 100%;
     margin-right: 12px;
 }
+.top-players .players .player p{
+    font-size: 20px;
+}
 /* -------------------------------------------xxx
     Top Players
 xxx------------------------------------------- */
@@ -87,6 +93,60 @@ xxx------------------------------------------- */
     font-size: 16px;
     color: #b1b1b1;
 }
+.top-blogs .blogs .blog .blog-details span a{
+    text-decoration: none;
+    color: blueviolet;
+}
 /* -------------------------------------------xxx
     Top Blogs
+xxx------------------------------------------- */
+
+
+
+
+/* ----------------------------------------------
+    Lates Course
+---------------------------------------------- */
+.latest-courses{
+
+}
+.latest-courses .courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.latest-courses .courses .course img{
+    max-width: 100%;
+}
+.latest-courses .courses .course .course-title{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.latest-courses .courses .course p{
+    color: #d62a38;
+    margin-bottom: 15px;
+}
+.latest-courses .courses .course .meta{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-courses .courses .course .meta .rating .filled{
+    color: #eeaa19;
+}
+.latest-courses .courses .course .meta .rating .unfilled{
+    color: #c0c0c0;
+}
+.latest-courses .courses .course .meta .rating span{
+    color: #525252;
+}
+.latest-courses .courses .course .meta .duration{
+    border-radius: 12px;
+    padding: 3px 12px;
+    background: rgba(231, 102, 113, 0.4);
+    font-size: 12px;
+    color: #d62a38;
+}
+/* -------------------------------------------xxx
+    Lates Course
 xxx------------------------------------------- */
